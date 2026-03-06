@@ -82,7 +82,7 @@ public class U03aErrorTrapsApp {
         System.out.print("Part 2 Enter a word: ");
         userInput = input.nextLine();
         System.out.println(getWordLengthAndStartError(userInput));
-        // TODO Part 2 of 2, prompt the user for a word. According to Trinity College, the "average length of English words is 4.5 letters". Depending on the user input, print either:
+        // DONE Part 2 of 2, prompt the user for a word. According to Trinity College, the "average length of English words is 4.5 letters". Depending on the user input, print either:
         //     -   LONG WORD THAT STARTS WITH A VOWEL
         //     -   LONG WORD THAT STARTS WITH A CONSONANT
         //     -   SHORT WORD THAT STARTS WITH A VOWEL
