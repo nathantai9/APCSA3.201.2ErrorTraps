@@ -39,11 +39,11 @@ public class U03aErrorTrapsApp {
             return "ERROR";
         }
         char firstChar = Character.toLowerCase(userInput.charAt(0));
-        if (firstChar < 'A' || firstChar > 'z') {
+        if (firstChar < 'a' || firstChar > 'z') {
             return "ERROR";
         }
         boolean isLong = userInput.length() > 4;
-        boolean startsWithVowel = (firstChar == 'A' || firstChar == 'E' || firstChar == 'I' || firstChar == 'O' || firstChar == 'U');
+        boolean startsWithVowel = (firstChar == 'a' || firstChar == 'e' || firstChar == 'i' || firstChar == 'o' || firstChar == 'u');
         
         if (isLong && startsWithVowel) {
             return "LONG WORD THAT STARTS WITH A VOWEL"; 
